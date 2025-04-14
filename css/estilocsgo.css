@@ -1,0 +1,69 @@
+/*font*/ 
+/*letra font-family: "Roboto", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*comentario
+fondo bordo#410707
+dorado #C69749
+celeste oscuro #1b3039
+*/
+/*generales*/
+/*RESET DE CSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62,5%;
+    font-family: "Roboto", serif
+}
+
+body{
+    background-color: #410707;
+}
+  /*MODIFICANDO LA BARRA NAVEGADORA PARA QUE QUEDE COMO FIGMA*/
+
+.headercs{
+    background-color: #1b3039;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    text-shadow: -7px 0px 14px rgba(1,1,1,0.79);
+
+}
+
+h1{
+    padding-top: 40px;
+    font-size: 3rem;
+}
+nav{
+    padding-top: 30px; /*sirve para alinar LA BARRA*/
+    padding-right: 60px;
+    width: 85%;
+}
+.ulcs{
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between  ;
+
+}
+
+.cajacs1{
+    color: #C69749;
+text-decoration: none;
+font-size: 3rem;
+
+}
+
+
+.cajacs2{
+    color: #C69749;
+    font-size: 3rem;
+    padding-top: 1px;
+}
+
+.cajacs3 a{
+color: #C69749;
+text-decoration: none;
+font-size: 4rem;
+}
